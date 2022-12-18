@@ -1,0 +1,22 @@
+public class OlaMergulhador04 {
+
+    // Questão com o erro
+    /*
+
+    public class OlaMergulhador04 {
+
+        public static void main(string[] args) {
+            System.out.println("Olá, mergulhador!");
+        }
+
+    }
+
+     */
+
+    // Erro encontrado foi o string que está minusculo aqui abaixo está o correto
+
+    public static void main(String[] args) {
+        System.out.println("Olá, mergulhador!");
+    }
+
+}
