@@ -7,8 +7,8 @@ public class Funcionario {
     private double valorHora;
 
     public Funcionario(String nome, double valorHora) {
-        this.nome = nome;
-        this.valorHora = valorHora;
+        this.setNome(nome);
+        this.setValorHora(valorHora);
     }
 
     public String getNome() {
@@ -24,6 +24,9 @@ public class Funcionario {
     }
 
     public void setValorHora(double valorHora) {
+        if(valorHora < 0) {
+            throw new RuntimeException("Valor da hora informada não pode ser menor que 0");
+        }
         this.valorHora = valorHora;
     }
 
