@@ -1,4 +1,4 @@
-package calculo;
+package com.algaworks.calculo;
 
 import java.util.Arrays;
 

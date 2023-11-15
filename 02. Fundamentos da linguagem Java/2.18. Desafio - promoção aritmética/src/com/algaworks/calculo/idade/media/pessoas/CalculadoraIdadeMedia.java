@@ -1,4 +1,4 @@
-package calculo.idade.media.pessoas;
+package com.algaworks.calculo.idade.media.pessoas;
 
 public class CalculadoraIdadeMedia {
     public static void main(String[] args) {

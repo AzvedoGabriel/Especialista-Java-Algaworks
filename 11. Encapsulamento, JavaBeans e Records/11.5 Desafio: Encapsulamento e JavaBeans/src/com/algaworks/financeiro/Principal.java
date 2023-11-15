@@ -1,7 +1,6 @@
 package com.algaworks.financeiro;
 
 public class Principal {
-
     public static void main(String[] args) {
         Fornecedor imobiliaria = new Fornecedor("Zé Negócios Imobiliários");
 
@@ -25,7 +24,6 @@ public class Principal {
         // Cancelar o pagamento de uma conta pendente deve ser impedido
         // contaAluguel.cancelarPagamento();
     }
-
     public static void imprimirConta(ContaPagar conta) {
         System.out.printf("Fornecedor: %s%n", conta.getFornecedor().getNome());
         System.out.printf("Descrição: %s%n", conta.getDescricao());
